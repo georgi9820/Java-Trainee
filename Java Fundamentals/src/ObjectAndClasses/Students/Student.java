@@ -6,6 +6,13 @@ public class Student {
     private int age;
     private String hometown;
 
+    public Student(String firstName, String lastName, int age, String hometown) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.hometown = hometown;
+    }
+
     public int getAge() {
         return age;
     }
